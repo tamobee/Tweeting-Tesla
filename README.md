@@ -3,7 +3,7 @@
 
 ## Introduction<br>
 Using NLP, sentiment analysis, and other featues we used machine learning to determine whether<br>
-Elon Musk’s tweets have an impact on Tesla’s stock price controlling for the market.  We then used <br
+Elon Musk’s tweets have an impact on Tesla’s stock price controlling for the market.  We then used<br>
 these findings to develop algortihmic trading programs to trade in Tesla Stock.<br>
 
 Some of the key questions that we wanted to answer:<br>
