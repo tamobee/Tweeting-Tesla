@@ -18,7 +18,7 @@ The data collection and cleaning process was lengthy.  We pulled the Twitter dat
 called Twint that pulled Elon Musk's tweet as well as engagement metrics that we thought would be<br>
 valuable to use as Machine Leaning features.<br>
 
-![elon_tweets](https://github.com/tamobee/project_2/main/png_file/elon_tweets.png)
+![elon_tweets](https://github.com/tamobee/project2/blob/main/png_file/elon_tweets.png) 
 
 After uploading the tweets we encountered some practical problems during the cleaning process.<br>
 We had to write lengthy code to push weekend and off hour tweets and engagement into the next<br>
@@ -31,13 +31,13 @@ the compound score we also created positive, negative and neutral labels.  After
 frequency analysis on most common words, we manually intervened to remove non-relevant stop <br>
 words for the most accurate results.<br>
 
-![frequency_analysis](https://github.com/tamobee/project_2/blob/main/png_file/frequency_analysis.png)
+![frequency_analysis](https://github.com/tamobee/project2/blob/main/png_file/frequency_analysis.png)
 
 ## Data Exploration<br>
 
 As we looked through our data to determine our features in our model we focused on a few key ideas<br>
 
-![twitter_engagement](https://github.com/tamobee/project_2/blob/main/png_file/twitter_engagement.png)
+![twitter_engagement](https://github.com/tamobee/project2/blob/main/png_file/twitter_engagement.png)
 
 We found there to be a correlation between engagement from other twitter users and Tesla stock movement<br>
 We also found there to be a high degree of correlation between sentiment and Tesla stock movement.<br>
@@ -57,14 +57,14 @@ our model we achieved relative success with a MSE score on daily return for test
 The weekly returned similar results with our test data at .002 (train score .006).  Overall feature importance<br>
 heavily skewed towards twitter engagement and compound sentiment score.
 
-![features](https://github.com/tamobee/project_2/blob/main/png_file/features.png)
+![features](https://github.com/tamobee/project2/blob/main/png_file/features.png)
 
 ## Algo Results/ Project Conclusions
 
 We took our model results and looked at buy/sell flags for Tesla.  When running an algo that traded these flags<br>
 we found that our results were not as good as buy and holding strategies for Tesla given it's quick rise. <br>
 
-![features](https://github.com/tamobee/project_2/blob/main/png_file/algo_results.png)
+![features](https://github.com/tamobee/project2/blob/main/png_file/algo_results.png)
 
 Instead we looked at four different trading strategies:<br>
 
