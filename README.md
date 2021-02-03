@@ -50,12 +50,12 @@ and QQQ on daily/weekly basis.
 ## Model Analysis
 
 We used random forest regression machine learning as a way to reduce over fitting in our model so we could<br>
-look at mean prediction as the individual trees as output.  To reiterate, our x variables were a combination<br>
-of different features.  Sentiment analysis (compound, neutral, etc.), engagement (likes, retweets, etc), keywords<br>
-(both individual key word flags and keyword strength) and quarterly earning dates were used.  After running<br>
-our model we achieved relative success with a MSE score on daily return for test data at .001 (train score .0005).<br>
-The weekly returned similar results with our test data at .002 (train score .006).  Overall feature importance<br>
-heavily skewed towards twitter engagement and compound sentiment score.
+look at mean prediction of the individual trees as output.  Our x variables included Sentiment analysis (compound, positive, neutral, negative), <br>
+engagement (retweets, replies, likes, etc), keywords<br>
+(both individual keywords and keyword strength) and quarterly earning report dates were used.  After training<br>
+our model we achieved a success with a MSE score on daily return for test data at .001 (train data MSE .0005).<br>
+The weekly returned similar results with our test data at .002 (train data MSE .006).  Overall feature importances<br>
+were skewed towards twitter engagement and compound sentiment score.
 
 ![features](https://github.com/tamobee/project2/blob/main/png_file/features.png)
 
