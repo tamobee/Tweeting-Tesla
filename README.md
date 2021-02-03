@@ -66,9 +66,10 @@ we found that our results were not as good as buy and holding strategies for Tes
 10-day and 20-day ($1,840,235.96), 
 20-day and 50-day ($1,386,095.99), and 50-day and 100-day ($1,914,389.90).  With Tesla’s relatively continuous upward trajectory from 2016-2020, buying and holding this position throughout all four years would have most likely yielded the greatest reward.  
 
+We looked at four different buy and hold strategies:<br>
 ![features](https://github.com/tamobee/project2/blob/main/png_file/algo_results.png)
 
-Instead, we looked at four different trading strategies:<br>
+
 
 Overall, we believe we answered our questions that we set out initially.<br>
 
