@@ -62,7 +62,9 @@ heavily skewed towards twitter engagement and compound sentiment score.
 ## Algo Results/ Project Conclusions
 
 We took our model results and looked at buy/sell flags for Tesla.  When running an algo that traded these flags<br>
-we found that our results were not as good as buy and holding strategies for Tesla given its quick rise. <br>
+we found that our results were not as good as buy and holding strategies for Tesla given its quick rise. <br> We had tested the 5-day and 10-day (profit of $1,021,691.88), 
+10-day and 20-day ($1,840,235.96), 
+20-day and 50-day ($1,386,095.99), and 50-day and 100-day ($1,914,389.90).  With Tesla’s relatively continuous upward trajectory from 2016-2020, buying and holding this position throughout all four years would have most likely yielded the greatest reward.  
 
 ![features](https://github.com/tamobee/project2/blob/main/png_file/algo_results.png)
 
